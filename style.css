@@ -1,0 +1,94 @@
+:root {
+    -- margin-5-top-0-bottom: 5px 0;
+}
+
+body{ 
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100%;
+    box-sizing: border-box;
+    background-color:#FF4F09;
+}
+
+h1{
+    color: #461400
+}
+
+p{ 
+    color: #FFDACB
+}
+
+/* Naviagtion bar syling */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+/* Home page styling  */
+
+.home-container-1 { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    width: 95vw;
+    
+   
+   
+}
+
+
+/* About me page styling  */
+
+.about-container-1 { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+
+
+.about-container-2 { 
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+   
+}
+/* Footer styling which is used across all pages */
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+
+}
