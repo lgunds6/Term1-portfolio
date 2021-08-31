@@ -17,42 +17,44 @@
       </nav>
     
 </head>
-    <body>
+    <body >
+        <section class="contact-container">
         <h3>Contact us</h3>
-        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-                <label for="Name" class="fcf-label">Your name</label>
-                <div class="fcf-input-group">
-                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+        <form class="form-container">
+                <label>Your name</label>
+                <div>
+                    <input required>
                 </div>
-            <div class="fcf-form-group">
-                <label for="Email" class="fcf-label">Your email address</label>
-                <div class="fcf-input-group">
-                    <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                <label>Your email address</label>
+                <div>
+                    <input>
                 </div>
-            <div class="fcf-form-group">
-                <label for="Message" class="fcf-label">Your message</label>
-                <div class="fcf-input-group">
-                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                <label>Your message</label>
+                <div>
+                    <textarea rows="6" maxlength="3000" required></textarea>
                 </div>
             </div>
-            <div class="fcf-form-group">
-                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+            <div>
+                <button>Send</button>
             </div>
+        </form>
+        </section>
+        <footer class= "footer-container">
+            <div>
+                <p>&copy; 2021 Luke Gunders </p>
+            </div>
+            <div>
+                <a href="https://github.com/lgunds6" target="_blank>">
+                <img src="images/github.png" alt="github" style="width:42px;height:42px;">
+                </a>
+                <a href="https://twitter.com/australia" target="_blank>">
+                <img src="images/twitter.png" alt="twitter" style="width:42px;height:42px;">
+                </a>
+                <a href="https://au.linkedin.com/" target="_blank>">
+                <img src="images/linkedin.png" alt="Linkedin" style="width:42px;height:42px;">
+                </a>
+            </div>
+        </footer>    
     </body>
-    <footer class= "footer-container">
-        <div>
-        <p>&copy; 2021 Luke Gunders </p>
-    </div>
-        <div>
-        <a href="https://github.com/lgunds6" target="_blank>">
-        <img src="images/github.png" alt="github" style="width:42px;height:42px;">
-        </a>
-        <a href="https://twitter.com/australia" target="_blank>">
-            <img src="images/twitter.png" alt="twitter" style="width:42px;height:42px;">
-        </a>
-        <a href="https://au.linkedin.com/" target="_blank>">
-            <img src="images/linkedin.png" alt="Linkedin" style="width:42px;height:42px;">
-        </a>
-        </div>
-      </footer>
+    
 </html>
