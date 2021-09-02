@@ -18,12 +18,18 @@ body{
 
 
 h1{
-    color: #fafafa;
+    color: #f06457;
     font-size: 60px;
+    text-align:center;
+}
 
+#my-name{
+  color: #fafafa;
 }
 h2{
   color: #201c1c;
+  text-align:center;
+  font-size: 50px;
 }
 p{ 
     color: #56617A;
@@ -38,12 +44,14 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #fbf8f8
+    background-color: #fbf8f8;
+    display:flex;
+    justify-content: center;
   }
 
 
 li {
-    float: right;
+    /* float: right; */
   }
   
   li a {
@@ -109,21 +117,63 @@ li {
    
 }
 .about-image1{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
   margin: 20px;
+  
 }
 .about-text1{
   margin: 20px;
+  max-width: 400px;
+  width:80%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-container-2 { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.about-skills{
+
+  max-width: 400px;
+  width:80%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-text2{
+  
+  max-width: 400px;
+  width:80%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
-.about-container-2 { 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    width: 95vw;
-    
-   
+/* Blog page styling */
+
+.blog-container{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.blog{
+  max-width: 400px;
+  width:80%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin:200px;
 }
 
 
@@ -141,12 +191,11 @@ li {
 /* Footer styling which is used across all pages */
 .footer-container{
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: space-between;
+    flex-direction: column-reverse;
+    align-items: center;
     background-color:#2b313d
     padding: 15px;
-    margin: 0;
+    margin-top: 20px;
     
     
 
