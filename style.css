@@ -1,5 +1,5 @@
 :root {
-    -- margin-5-top-0-bottom: 5px 0;
+    -- margin-5-top-0-bottom: 0px 0;
 }
 
 body{ 
@@ -9,25 +9,24 @@ body{
     height: 100%;
     box-sizing: border-box;
     background-color: rgb(245, 245, 245);
-    font-family: 'Lato', sans-serif;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Righteous', cursive;
     font-weight: 300;
 }
 /* Font styling - extracting from google fonts */
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 
 h1{
-    color: #201e1e;
+    color: #fafafa;
     font-size: 60px;
-    font-family: 'PT Serif', serif;
 
 }
 h2{
   color: #201c1c;
 }
 p{ 
-    color: #252121;
-    font-family: 'Lato', sans-serif;
+    color: #56617A;
     font-weight: 300;
     font-size: 30px;
 }
@@ -39,18 +38,18 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(197 24 10);
+    background-color: #fbf8f8
   }
 
 
 li {
-    float: left;
+    float: right;
   }
   
   li a {
     display: block;
-    color: white;
-    font-weight: bold;
+    color: #99A0B0;
+    /* font-weight: bold; */
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -68,13 +67,16 @@ li {
 
 /* Home page styling  */
 
+
+
 .home-container-1 { 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    width: 95vw;
+    width: 100vw;
+    background-color: #f06457;
 }
   .button {
     background-color: rgb(32 66 185);
@@ -86,15 +88,11 @@ li {
     margin: 30px;
     border: 0;
   }
-    .mario-container{
-      display:block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 70%;
-
-
-    }
-   
+    
+   span{
+    font-size: 2.5em;
+    color: white;
+   }
    
 
 
@@ -103,19 +101,24 @@ li {
 
 .about-container-1 { 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    width: 95vw;
+    width: 100vw;
    
 }
-
+.about-image1{
+  margin: 20px;
+}
+.about-text1{
+  margin: 20px;
+}
 
 
 .about-container-2 { 
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     align-items: center;
     height: 100vh;
     width: 95vw;
@@ -141,6 +144,7 @@ li {
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-between;
+    background-color:#2b313d
     padding: 15px;
     margin: 0;
     
