@@ -49,7 +49,10 @@ ul {
     overflow: hidden;
     background-color: #fbf8f8;
     display:flex;
+    flex-wrap: wrap;
     justify-content: center;
+   
+  
   }
 
   
@@ -58,11 +61,11 @@ ul {
     color: #99A0B0;
     /* font-weight: bold; */
     text-align: center;
-    padding: 14px 16px;
+    padding: 24px 26px;
     text-decoration: none;
     font-size: 20px ;
     font-family: sans-serif;
-    
+ 
   }
   
   li a:hover:not(.active) {
@@ -82,7 +85,7 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     background-color: #f06457;
 }
@@ -122,16 +125,17 @@ ul {
     width: 100vw;
    
 }
-.about-image1{
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 20px;
-  
+.about-image{
+  max-width: 600px;
+  height: 350px;
+  padding: 30px;
+  width: 90%;
 }
+  
+
 .about-text1{
   margin: 20px;
-  max-width: 400px;
+  max-width: 600px;
   width:80%;
   display:flex;
   flex-direction: column;
@@ -144,11 +148,12 @@ ul {
   align-items: center;
   height: 100vh;
   width: 100vw;
+  margin-top: 30px;
 }
 
 .about-skills{
 
-  max-width: 400px;
+  max-width: 600px;
   width:80%;
   display:flex;
   flex-direction: column;
@@ -156,7 +161,7 @@ ul {
 }
 .about-text2{
   
-  max-width: 400px;
+  max-width: 600px;
   width:80%;
   display:flex;
   flex-direction: column;
@@ -184,7 +189,7 @@ justify-content: center;
   justify-content: center;
 }
 .blog-image{
-  width: 500px;
+  width: 90%;
   height: 350px;
   padding: 30px;
 }
@@ -192,12 +197,14 @@ justify-content: center;
 
 /* Contact me page styling */
 .contact-container{
-  display: flex;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 95vw;
+    justify-content: space-evenly;
+    padding: 50px;
+    border: 50px;
+   
+
 }
 
 
@@ -209,7 +216,4 @@ justify-content: center;
     background-color:#2b313d
     padding: 15px;
     margin-top: 20px;
-    
-    
-
 }
