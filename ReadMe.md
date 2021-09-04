@@ -1,6 +1,8 @@
-Url link
+## Website
+https://luke-gunders.netlify.app/
 
-GITHub Rep
+## Github Repository
+https://github.com/lgunds6/Term1-portfolio
 
 # My Portfolio Website
 
@@ -74,6 +76,6 @@ Project created with:
 - CSS 3
 
 ##  Deployment platform
-Gitpages
+Netlify
 
 
