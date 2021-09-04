@@ -23,7 +23,7 @@ h1{
     text-align:center;
     font-family: 'Fredoka One', cursive;
 }
-
+/* -----------Home page H1 title styling------------- */
 #my-name{
   color: #fafafa;
 }
@@ -41,8 +41,9 @@ p{
     margin-inline-start: 10px;
     margin-inline-end: 10px;
 }
+/* end */
 
-/* Naviagtion bar syling */
+/* -------------Naviagtion bar syling---------------- */
 
 ul {
     list-style-type: none;
@@ -57,7 +58,6 @@ ul {
   
   }
 
-  
   li a {
     display: block;
     color: #99A0B0;
@@ -77,8 +77,11 @@ ul {
     background-color: #04AA6D;
   }
 
-/* Home page styling  */
+/* end */
 
+/* --------------Home styling-------------- */
+
+  /* <!-- Home page class="home-container-1" start--> */
 
 
 .home-container-1 { 
@@ -91,7 +94,7 @@ ul {
     background-color: #f06457;
 }
 
-
+  /* <!-- Home button class="button" start  --> */
   .button {
     background-color: #f06457;
     font-size: 24px;
@@ -103,23 +106,35 @@ ul {
     border: 5;
     border-color: white;
   }
-    
+  /* <!-- end  --> */
+   
+
+  /* <!-- Home span start --> */
    span{
     font-size: 2.5em;
     color: white;
    }
+/* <!--  end --> */
+
+/* <!-- Home H2 class= "home-div" id="portfolio" start --> */
+
   #portfolio{
     color: #fafafa;
   }
+  /* <!-- end --> */ 
+
+/* <!-- end--> */
    
-/* About me page styling  */
+/* -------------About Page styling----------------  */
+
+  /* <!-- About me component class="about-container" start --> */
 
 .about-container { 
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* height: 100vh;
-    width: 100vw; */
+    margin: 20px;
+    
    
 }
 
@@ -128,11 +143,16 @@ ul {
   justify-content: center;
 }
 
+  /* <!-- About image class="about-image" start  --> */
 .about-image{
   max-width: 600px;
   width:90%;
 
 }
+  /* end */
+
+  /* end */
+
   #resume{
     display: flex;
     justify-content: center;
@@ -141,9 +161,12 @@ ul {
 
   }
 
+/* end */
 
-/* Blog page styling */
 
+/* ------------Blog page styling--------------- */
+
+  /* <!-- Blog container component class="blog-container" start  --> */
 .blog-container{
 display: flex;
 flex-direction: row;
@@ -151,7 +174,9 @@ flex-wrap: wrap;
 justify-content: center;
 
 }
+  /* End */
 
+  /* <!-- Blog component class="blog" class="blog-image" start --> */
 .blog{
   max-width: 600px;
   width:90%;
@@ -161,14 +186,17 @@ justify-content: center;
   padding: 20px;
   justify-content: center;
 }
+
 .blog-image{
   width: 90%;
   height: 350px;
   padding: 30px;
 }
+/* end */
 
+/* ----------Contact me styling---------------- */
 
-/* Contact me page styling */
+  /* <!-- <form class="contact-container"> start --> */
 .contact-container{
     display: flex;
     flex-direction: column;
@@ -176,13 +204,12 @@ justify-content: center;
     justify-content: space-evenly;
     padding: 50px;
     border: 50px;
-   
-
 }
+  /* end */
 
+/* -----Footer styling------  */
 
-/* Footer styling which is used across all pages */
-
+  /* <!-- Universal footer class="footer-container" id= "footer-content">  start --> */
 .footer-container{
     display: flex;
     flex-direction: column;
@@ -194,3 +221,4 @@ justify-content: center;
   justify-content: center;
   margin-top: 10px;
 }
+/* end */
